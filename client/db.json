@@ -1,0 +1,49 @@
+{
+  "bin": {},
+  "requests": [
+    {
+      "id": 9,
+      "http_method": "POST",
+      "content_type_header": "application/json",
+      "content_length_header": "23",
+      "headers": {
+        "connection": "upgrade",
+        "host": "requestbin.scttgrhm.dev",
+        "content-length": "23",
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.29.0",
+        "accept": "*/*",
+        "postman-token": "3e00d609-6feb-4619-9411-941e5bb1b6e6",
+        "accept-encoding": "gzip, deflate, br"
+      },
+      "payload": {
+        "attr1": "testing",
+        "attr2": {
+          "attr3": "testing",
+          "attr4": "testing,",
+          "attr5": "testing",
+          "attr6": {
+            "attr7": "testing"
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "http_method": "GET",
+      "content_type_header": "application/json",
+      "content_length_header": "23",
+      "headers": {
+        "connection": "upgrade",
+        "host": "requestbin.scttgrhm.dev",
+        "content-length": "23",
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.29.0",
+        "accept": "*/*",
+        "postman-token": "3e00d609-6feb-4619-9411-941e5bb1b6e6",
+        "accept-encoding": "gzip, deflate, br"
+      },
+      "payload": {}
+    }
+  ]
+}
